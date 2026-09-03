@@ -1,0 +1,11 @@
+{
+  "name": "tpintegrador-psr2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotnet watch --project backend/tpintegrador_psr2026.Api/tpintegrador_psr2026.Api.csproj run",
+    "start": "dotnet run --project backend/tpintegrador_psr2026.Api/tpintegrador_psr2026.Api.csproj",
+    "build": "dotnet build backend/tpintegrador_psr2026.sln",
+    "test": "dotnet test backend/tpintegrador_psr2026.sln"
+  }
+}
